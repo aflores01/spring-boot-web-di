@@ -1,8 +1,5 @@
 package com.learning.springboot.di.app.models.service;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
-
 //@Component("myPrincipalComplexService")
 //@Primary
 //Primary establece prioridad por defecto sobre la selección de componentes inyectados

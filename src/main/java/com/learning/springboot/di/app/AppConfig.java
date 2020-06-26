@@ -25,7 +25,7 @@ public class AppConfig {
 		return new MyService();
 	}
 
-	@Bean
+	@Bean("ItemsFactura")
 	public List<ItemFactura> getItems() {
 		Producto producto1 = new Producto("Utilería", 100);
 		Producto producto2 = new Producto("Vestuario", 500);

@@ -18,7 +18,7 @@ public class FacturaController {
 	@GetMapping("/ver")
 	public String ver(Model model) {
 		model.addAttribute("factura", factura);
-		model.addAttribute("titulo", "Ejemplo de factura con valor de dependencia");
+		model.addAttribute("titulo", "Ejemplo de factura con inyección de dependencia");
 		return "factura/ver";
 	}
 

@@ -23,10 +23,10 @@
 		</thead>
 		<tbody>
 			<tr th:each="item: ${factura.items}">
-				<td td:text="${item.producto.nombre}"></td>
-				<td td:text="${item.producto.precio}"></td>
-				<td td:text="${item.cantidad}"></td>
-				<td td:text="${item.producto.precio * item.cantidad}"></td>
+				<td th:text="${item.product.nombre}"></td>
+				<td th:text="${item.product.Precio}"></td>
+				<td th:text="${item.Cantidad}"></td>
+				<td th:text="${item.Cantidad * item.product.Precio}"></td>
 			</tr>
 		</tbody>
 	</table>
